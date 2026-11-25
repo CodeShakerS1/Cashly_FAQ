@@ -1,0 +1,185 @@
+O que é o Cashly?
+O Cashly é um aplicativo de finanças pessoais para controlar receitas e despesas. Você registra suas transações, organiza os gastos por categoria e acompanha tudo em um dashboard semanal, com notificações e insights sobre seus hábitos financeiros.
+
+Como cadastro uma despesa?
+Ao cadastrar uma despesa você informa o nome, o valor, a data e o método de pagamento. Também pode escolher uma categoria, mas ela é opcional. Ao salvar, a despesa aparece automaticamente na sua lista de transações e você recebe uma notificação de despesa adicionada.
+
+Posso editar uma despesa depois de cadastrada?
+Sim. Você pode alterar nome, valor, data, método de pagamento e categoria. A transação ligada à despesa é atualizada junto e você recebe uma notificação de despesa atualizada.
+
+O que acontece quando eu excluo uma despesa?
+A despesa e a transação vinculada a ela são removidas juntas, então o valor deixa de contar no seu saldo e nos gráficos.
+
+Como cadastro uma receita?
+Informe o nome, o valor, a data e o método da receita. Ela também gera uma transação automaticamente e você recebe uma notificação de receita adicionada. Você pode editar ou excluir a receita depois; a transação vinculada acompanha as mudanças.
+
+O que é a lista de transações?
+É o histórico unificado de tudo que entrou e saiu: receitas e despesas aparecem como transações, com valor, descrição, método e data. Você pode filtrar por período.
+
+Como o saldo é calculado e o que acontece se ficar negativo?
+O saldo total é calculado a partir das suas receitas e despesas. Sempre que você cadastra ou edita uma despesa e o saldo fica abaixo de zero, o Cashly envia uma notificação de saldo negativo com o valor atual.
+
+Como funcionam as categorias?
+Existem categorias padrão do sistema e categorias personalizadas que você cria. Você pode editar ou excluir suas categorias e usá-las para classificar suas despesas.
+
+O que é o limite da categoria?
+É um valor máximo opcional que você define para uma categoria. Ele considera os gastos do mês atual naquela categoria. Se você não definir limite, nenhum alerta é enviado para ela.
+
+Quando recebo alertas de limite?
+Ao cadastrar uma despesa com categoria que tem limite, o Cashly compara o total gasto no mês com o limite. Quando você atinge 80% ou mais, mas ainda está abaixo de 100%, recebe o alerta de limite em alerta. Quando atinge ou passa de 100%, recebe a notificação de limite excedido.
+
+O que mostra o dashboard?
+Mostra o saldo total, o total gasto na semana, um gráfico com os gastos de cada dia da semana (de domingo a sábado) e a lista de categorias com o total gasto e o limite de cada uma. Você pode alternar entre a semana atual e a semana anterior.
+
+O que é o Resumo Semanal?
+Toda segunda-feira, às 12h, o Cashly envia uma notificação comparando seus gastos por categoria na semana passada com a semana anterior. A mensagem também mostra seu saldo atual.
+
+Como o Resumo Semanal compara meus gastos?
+Para cada categoria: se você gastou 10% ou mais a menos que na semana anterior, aparece uma mensagem de economia. Se gastou 10% ou mais a mais, aparece um alerta de aumento. Se a categoria não tinha gastos na semana anterior e teve nesta, aparece como novos gastos. Se nada mudou de forma relevante, a mensagem diz que seus gastos permaneceram estáveis.
+
+Que tipos de notificação o Cashly envia?
+Despesa adicionada, despesa atualizada, receita adicionada, saldo negativo, limite de categoria em alerta (80%), limite excedido (100%) e o resumo semanal. Você pode marcar cada notificação como lida e ver quais ainda não foram lidas.
+
+Como crio minha conta e entro no app?
+Você se cadastra com nome, e-mail e senha e depois faz login com e-mail e senha.
+
+Minha senha fica segura?
+Sim. A senha é armazenada de forma criptografada e nunca em texto puro.
+
+Posso alterar meus dados de perfil?
+Sim. Você pode alterar nome, e-mail e foto. A senha só é trocada se você informar uma nova; se deixar em branco, a atual continua valendo.
+
+Posso excluir minha conta?
+Sim, a conta pode ser excluída.
+
+Em quais plataformas o Cashly funciona?
+O Cashly é um aplicativo mobile, feito em React Native com Expo.
+
+Posso editar uma receita depois de cadastrada?
+Sim. Você pode alterar o nome, o valor, a data e o método da receita. A transação ligada a ela é atualizada junto.
+
+O que acontece quando excluo uma receita?
+A receita e a transação vinculada a ela são removidas juntas, e o valor deixa de contar no seu saldo.
+
+Preciso escolher uma categoria para cadastrar uma despesa?
+Não. A categoria é opcional. Mas, se a despesa não tiver categoria, ela não entra na conta do limite de nenhuma categoria e não gera alerta de limite.
+
+Por que não recebi alerta de limite?
+O alerta só é enviado quando você cadastra uma despesa em uma categoria que tenha limite definido. Se a categoria não tem limite, ou se a despesa foi cadastrada sem categoria, nenhum alerta é enviado.
+
+Quando chega o Resumo Semanal e qual período ele cobre?
+Ele chega toda segunda-feira, às 12h, e cobre a semana anterior completa, de segunda a domingo, comparada com a semana anterior a ela.
+
+O que significa "novos gastos registrados nesta semana" no Resumo Semanal?
+Significa que você gastou nessa categoria na semana passada, mas não tinha nenhum gasto nela na semana anterior, então não há como comparar a variação.
+
+Por que o gráfico do dashboard começa no domingo?
+O gráfico semanal do dashboard vai de domingo a sábado, e cada barra mostra o total gasto naquele dia. Você pode alternar entre a semana atual e a anterior.
+
+Posso ver o dashboard da semana passada?
+Sim. No dashboard você pode alternar entre a semana atual e a semana anterior para comparar seus gastos.
+
+Qual a diferença entre despesa e transação?
+A despesa é o gasto que você cadastra. A transação é o registro dele no seu histórico. Toda receita e toda despesa geram uma transação automaticamente, e as duas ficam sincronizadas quando você edita ou exclui.
+
+Como sei quais notificações ainda não li?
+O Cashly separa as notificações não lidas das lidas. Você pode marcar cada notificação como lida e também excluir as que não quiser mais.
+
+Meus dados são separados dos de outros usuários?
+Sim. Suas receitas, despesas, transações e notificações pertencem à sua conta e são mostradas com base no seu usuário.
+
+Como funciona o Cashly?
+O Cashly funciona assim: você registra suas receitas e despesas, organiza os gastos em categorias (podendo definir um limite para cada uma) e acompanha tudo no dashboard semanal. O app envia notificações quando você cadastra algo, quando o saldo fica negativo e quando uma categoria chega perto do limite, e toda segunda-feira manda um resumo comparando seus gastos da semana.
+
+O que é isso? Para que serve o Cashly?
+O Cashly é um aplicativo de finanças pessoais. Ele serve para você controlar o dinheiro que entra (receitas) e o que sai (despesas), ver para onde seu dinheiro está indo por categoria e acompanhar seus hábitos financeiros semana a semana.
+
+O que o Cashly faz? Quais são as funcionalidades?
+Com o Cashly você pode cadastrar, editar e excluir receitas e despesas, ver o histórico de transações, criar categorias personalizadas com limite opcional, acompanhar o dashboard semanal, receber notificações (despesa adicionada, saldo negativo, limite em alerta, limite excedido) e receber um resumo semanal toda segunda-feira. Também é possível editar seu perfil e tirar dúvidas com este assistente.
+
+Como uso o Cashly? Como começo? Tem tutorial?
+Para começar, crie sua conta com nome, e-mail e senha e faça login. Depois cadastre suas receitas e despesas, escolha categorias para organizar os gastos e, se quiser, defina um limite para cada categoria. Acompanhe tudo no dashboard e nas notificações.
+
+Oi, olá, bom dia, boa tarde, boa noite
+Olá! Eu sou o assistente virtual do Cashly. Posso explicar como o app funciona, como cadastrar despesas e receitas, como usar categorias e limites, o que mostra o dashboard e o que significam as notificações. Sobre o que você quer saber?
+
+Preciso de ajuda. Não entendi. Me explica melhor.
+Claro, posso ajudar! Me conte sua dúvida sobre o Cashly. Por exemplo: como cadastrar uma despesa, como funcionam as categorias e os limites, o que é o resumo semanal ou o que mostra o dashboard. Se quiser uma visão geral, pergunte "como funciona o Cashly?".
+
+O que posso perguntar? Como você pode me ajudar?
+Posso responder dúvidas sobre o Cashly: cadastro de despesas e receitas, transações e saldo, categorias e limites, dashboard, resumo semanal, notificações, conta e perfil. Para assuntos fora do app, recomendo falar com o suporte humano.
+
+Quem é você? O que você faz?
+Eu sou o assistente virtual do Cashly. Respondo dúvidas sobre o aplicativo com base nas informações do FAQ. Se eu não souber a resposta, aviso e recomendo falar com o suporte humano.
+
+Para que serve o botão com "?"
+O botão redondo com "?" abre este chat com o assistente do Cashly. Você pode digitar sua dúvida sobre o app e eu respondo.
+
+Obrigado, valeu, tchau
+De nada! Se tiver mais alguma dúvida sobre o Cashly, é só perguntar.
+
+O que é uma receita?
+Receita é o dinheiro que entra. Ao cadastrar uma receita você informa nome, valor, data e método, e ela passa a fazer parte das suas transações e do seu saldo.
+
+O que é uma despesa?
+Despesa é o dinheiro que sai, ou seja, um gasto. Ao cadastrar você informa nome, valor, data e método de pagamento, e pode escolher uma categoria.
+
+O que é uma categoria?
+Categoria é um grupo para organizar suas despesas. Existem categorias padrão do sistema e categorias personalizadas que você cria, e cada categoria pode ter um limite de gastos.
+
+O que é o saldo?
+O saldo total é calculado a partir das suas receitas e despesas. Ele aparece no dashboard e também no Resumo Semanal. Se ficar negativo, você recebe uma notificação.
+
+O que é uma transação? Quais tipos existem?
+Transação é o registro de uma movimentação no seu histórico. Existem dois tipos: receitas (dinheiro que entra) e despesas (dinheiro que sai), e cada uma gera uma transação automaticamente.
+
+Como funciona o dashboard?
+O dashboard mostra o saldo total, o total gasto na semana, um gráfico com os gastos de cada dia (de domingo a sábado) e as categorias com o total gasto e o limite de cada uma. Você pode alternar entre a semana atual e a anterior.
+
+Como funcionam as notificações?
+O Cashly envia notificações quando você adiciona ou atualiza uma despesa, adiciona uma receita, fica com saldo negativo, chega a 80% do limite de uma categoria ou ultrapassa o limite, e toda segunda-feira com o resumo semanal. Você pode marcar como lida e excluir as que não quiser mais.
+
+Como funciona o limite de uma categoria?
+Você pode definir um limite de gastos para uma categoria, e ele considera os gastos do mês atual. A partir de 80% do limite você recebe um alerta, e ao chegar a 100% ou passar dele recebe a notificação de limite excedido. Sem limite, nenhum alerta é enviado.
+
+O que significa limite em alerta e limite excedido?
+Limite em alerta significa que você já gastou 80% ou mais do limite da categoria neste mês, mas ainda não chegou a 100%. Limite excedido significa que o gasto chegou a 100% do limite ou passou dele.
+
+O que acontece se eu gastar mais que o limite?
+Quando o gasto da categoria no mês chega a 100% do limite ou passa dele, você recebe a notificação de limite excedido. Antes disso, a partir de 80%, você recebe o alerta de limite em alerta.
+
+Como funciona o Resumo Semanal?
+Toda segunda-feira, às 12h, o Cashly envia uma notificação comparando seus gastos por categoria na semana passada com a semana anterior, e mostra seu saldo atual.
+
+Onde vejo meu saldo e quanto gastei na semana?
+No dashboard. Ele mostra o saldo total e o total gasto na semana, e você pode alternar entre a semana atual e a anterior.
+
+Onde vejo meus gastos por categoria?
+No dashboard, que lista as categorias com o total gasto e o limite de cada uma. O Resumo Semanal também compara seus gastos por categoria entre a semana passada e a anterior.
+
+Onde vejo meu histórico de transações?
+Na lista de transações, que mostra valor, descrição, método e data de tudo que entrou e saiu. Você pode filtrar por período.
+
+Como comparo minha semana com a semana passada?
+No dashboard você pode alternar entre a semana atual e a semana anterior. Além disso, toda segunda-feira o Resumo Semanal compara seus gastos por categoria entre as duas últimas semanas.
+
+Como adiciono uma despesa ou uma receita pelo app?
+Toque no botão verde "+" no centro da barra inferior e escolha "Adicionar Despesa" ou "Adicionar Receita". Depois preencha os dados e salve.
+
+Como crio uma categoria e defino um limite?
+Você pode criar categorias personalizadas e, se quiser, definir um limite de gastos para cada uma. O limite é opcional: sem limite, nenhum alerta é enviado para aquela categoria.
+
+Posso editar ou excluir uma categoria?
+Sim. Você pode editar e excluir as suas categorias.
+
+Por que recebi a notificação de saldo negativo?
+Você recebe essa notificação quando cadastra ou edita uma despesa e o saldo total fica abaixo de zero. A mensagem informa o valor atual do saldo.
+
+Posso excluir notificações?
+Sim. Você pode marcar cada notificação como lida e também excluir as que não quiser mais.
+
+Como troco minha senha?
+Você pode trocar a senha ao editar seu perfil, informando uma nova. Se deixar o campo em branco, a senha atual continua valendo.
+
+Onde edito meu perfil?
+Na aba de configurações do app, onde você pode alterar nome, e-mail, foto e senha.
