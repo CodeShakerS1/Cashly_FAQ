@@ -73,9 +73,6 @@ def answer_question(question, history):
     result = collection.query(query_texts=[search_query], n_results=TOP_K)
     context = "\n---\n".join(result["documents"][0])
 
-    print("SEARCH QUERY:", search_query)
-    print("CONTEXT:", context)
-
     # A (Augment)
     augmented_question = f"Contexto do FAQ:\n{context}\n\nPergunta: {search_query}"
 
